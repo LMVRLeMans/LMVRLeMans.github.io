@@ -202,7 +202,7 @@ ul.top-menu > li > .logout {
     width: 210px;
     height: 100%;
     position: fixed;
-    background: #2f323a;
+    background: #893010;
 }
 #sidebar h5 {
 	color: #f2f2f2;
@@ -336,7 +336,7 @@ ul.sidebar-menu li a.active i {
     z-index: 1002;
 }
 .black-bg {
-    background: #893010;
+    background: #cc4e0f;
     border-bottom: 1px solid #393d46;
 }
 .wrapper {
@@ -760,6 +760,12 @@ PANELS CONFIGURATIONS
 	height: 250px;
 	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
 }
+.pn2 {
+	height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
 /*Grey Panel*/
 .grey-panel {
 	text-align: center;
@@ -908,8 +914,10 @@ PANELS CONFIGURATIONS
 }
 /*WEATHER PANELS*/
 /* Weather 1 */
-.pouser{
-    margin-left: 50px;
+.weather {
+	background: url('weather.jpg') no-repeat center top;
+	text-align: center;
+	background-position: center center;
 }
 .weather i {
 	color: white;
@@ -991,10 +999,17 @@ PANELS CONFIGURATIONS
 /* Message Panel */
 .message-p {
 	background: #f5f5f5;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin
 }
 .message-p .message-header {
 	background: #dcdfe3;
 	padding: 3px;
+
+    /*MODIF*/
+    display: flex;
+    justify-content: flex-end;
+
 	margin-bottom: 15px;
 	text-align: center;
 }
