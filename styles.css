@@ -1003,7 +1003,7 @@ PANELS CONFIGURATIONS
     scrollbar-width: thin
 }
 .message-p .message-header {
-	background: #dcdfe3;
+	background: #cc4e0f;
 	padding: 3px;
 
     /*MODIF*/
@@ -1060,7 +1060,6 @@ PANELS CONFIGURATIONS
 }
 /* Instagram Panel*/
 .instagram-panel {
-	background: url('instagram.jpg') no-repeat center top;
 	text-align: center;
 	background-position: center center;
 }
@@ -1101,7 +1100,6 @@ PANELS CONFIGURATIONS
 }
 /* Soptify Panel */
 #spotify {
-	background: url('lorde.jpg') no-repeat center top;
 	margin-top: -15px;
 	background-attachment: relative;
 	background-position: center center;
@@ -1138,7 +1136,6 @@ PANELS CONFIGURATIONS
 }
 /* BLOG PANEL */
 #blog-bg {
-	background: url('blog-bg.jpg') no-repeat center top;
 	margin-top: -15px;
 	background-attachment: relative;
 	background-position: center center;
@@ -1254,7 +1251,6 @@ PANELS CONFIGURATIONS
 /* PROFILE PANELS */
 /* Profile 01*/
 #profile-01 {
-	background: url('profile-01.jpg') no-repeat center top;
 	margin-top: -15px;
 	background-attachment: relative;
 	background-position: center center;
@@ -1292,7 +1288,6 @@ PANELS CONFIGURATIONS
 }
 /* Profile 02*/
 #profile-02 {
-	background: url('profile-02.jpg') no-repeat center top;
 	margin-top: -15px;
 	background-attachment: relative;
 	background-position: center center;
@@ -1448,7 +1443,6 @@ PANELS CONFIGURATIONS
 }
 .project:hover .photo-wrapper {
   background-color: #4ECDC4;
-	background-image:url('zoom.png');
 	background-repeat:no-repeat;
 	background-position:center;
 	top: 0;
@@ -1529,8 +1523,7 @@ label {
     position: relative;
     text-align: left;
     width: 80px;
-    -webkit-mask: url('mask.png') 0 0 no-repeat;
-    mask: url('mask.png') 0 0 no-repeat;
+ 
     -webkit-user-select: none;
     -o-user-select: none;
     user-select: none;
@@ -1621,8 +1614,7 @@ label {
 .switch-square {
     border-radius: 6px;
     -webkit-border-radius: 6px;
-    -webkit-mask: url('mask.png') 0 0 no-repeat;
-    mask: url('mask.png') 0 0 no-repeat;
+   
 }
 .switch-square > div.switch-off label {
     border-color: #7f8c9a;
