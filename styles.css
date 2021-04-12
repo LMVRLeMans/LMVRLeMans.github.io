@@ -1,11 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
 /* You can add global styles to this file, and also import other style files */
-
 @font-face {
     font-family: "Raleway";
     src: url('Raleway-Regular.ttf');
 }
-
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -648,7 +646,6 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 	display: inline-block;
 	padding: 15px 0;
 	width: 100%;
-    margin-left:-5px;
 }
 .ds .desc:hover {
 	background: #ffffff;
@@ -921,7 +918,8 @@ PANELS CONFIGURATIONS
 /*WEATHER PANELS*/
 /* Weather 1 */
 .weather {
-	background: url('weather.jpg') no-repeat center top;
+    background: url('weather.jpg') center;
+
 	text-align: center;
 	background-position: center center;
 }
